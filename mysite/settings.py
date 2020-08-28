@@ -120,3 +120,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = (BASE_DIR, 'static')
+
+# others
+
+LOGIN_REDIRECT_URL='/'
+LOGIN_URL='accounts/login'
